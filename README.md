@@ -1,3 +1,4 @@
-# project
+# google-scholar-profile-scraper
+Scrape profiles of google scholar authors. 
 
-This file contains a google scholar data based web app
+use scrapy crawl googleauthor -o output.csv command to start scraping the data.
