@@ -124,11 +124,8 @@ class GoogleauthorSpider(scrapy.Spider):
             item['position'] = positions
             item['tags'] = tags
             item['citation'] = int(citation)
-            item['citation_2014'] = int(citation_2014)
             item['hindex'] = int(hindex)
-            item['hindex_2014'] = int(hindex_2014)
             item['iindex'] = int(iindex)
-            item['iindex_2014'] = int(iindex_2014)
             item['totaltitle'] = int(total_articles)
             item['maxyear'] = max(self.years)
             item['minyear'] = min(self.years)
